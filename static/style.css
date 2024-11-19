@@ -1,0 +1,111 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.app-icon {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.app-icon i {
+    color: #007bff;
+}
+
+.category-badge {
+    background-color: #e9ecef;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    color: #495057;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+.rating {
+    color: #f8d448;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.rating i {
+    color: #ffc107;
+    margin-right: 2px;
+}
+
+.card-text {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.input-group {
+    min-width: 300px;
+}
+
+#searchInput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    min-width: 300px;
+}
+
+.btn-outline-light:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.navbar-brand i {
+    margin-right: 0.5rem;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+h2 i {
+    margin-right: 0.5rem;
+}
+
+.text-success {
+    font-weight: 500;
+}
